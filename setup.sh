@@ -40,7 +40,7 @@ fi
 PERMISSION () {
     MYIP=$(curl -sS ipv4.icanhazip.com)
     IZIN=$(curl -sS https://raw.githubusercontent.com/Romba89/sshmws/aio/permission/ip | awk '{print $4}' | grep $MYIP)
-    if [ "$MYIP" = "$IZIN" ]; then
+    if [ "$MYIP" = "$WEKWEKA" ]; then
     Bloman
     else
     res="Permission Denied!"
